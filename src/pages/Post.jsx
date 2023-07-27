@@ -54,17 +54,17 @@ const Post = ({ style, mouseEnter, mouseLeave, ...props }) => {
   if (postExists === false) {
     return <Redirect to='/404' />;
   }
-  const share = `https://twitter.com/share?url=${window.location.href}&text=I just read ${fetchedPost.title} by @favourcodes`;
+  const share = `https://twitter.com/`;
 
   return (
     <animated.div style={style} className={styles.post_wrapper}>
-      <Meta
+      {/* <Meta
         article={true}
         title={fetchedPost.title}
         description={fetchedPost.description}
         url={`https://favourcodes.com/post/${fetchedPost.slug}`}
         absoluteImageUrl={`https://favourcodes.com${fetchedPost.thumbnail}`}
-      />
+      /> */}
       <div className={styles.post}>
         <div className={styles.breadcrumb}>
           <Link onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} to='/'>

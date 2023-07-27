@@ -9,7 +9,7 @@ const Social = ({ mouseEnter, mouseLeave }) => {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
-        href='http://twitter.com/favourcodes'
+        href='http://twitter.com/'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='Twitter profile link'
@@ -19,7 +19,7 @@ const Social = ({ mouseEnter, mouseLeave }) => {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
-        href='http://github.com/lilpolymath'
+        href='http://github.com/'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='GitHub profile link'
@@ -29,7 +29,7 @@ const Social = ({ mouseEnter, mouseLeave }) => {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
-        href='https://www.linkedin.com/in/ayobami-a-90638a130/'
+        href='https://www.linkedin.com/'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='LinkedIn Prfile link'
@@ -39,7 +39,7 @@ const Social = ({ mouseEnter, mouseLeave }) => {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
-        href=' https://dribbble.com/lilpolymath'
+        href=' https://dribbble.com/'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='Dribbble profile link'
@@ -49,7 +49,7 @@ const Social = ({ mouseEnter, mouseLeave }) => {
       <a
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
-        href='https://codepen.io/favourcodes'
+        href='https://codepen.io/'
         target='_blank'
         rel='noopener noreferrer'
         aria-label='Codepen profile link'

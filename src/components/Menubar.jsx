@@ -27,7 +27,7 @@ const Menubar = ({ open, toggleMenubar, mouseEnter, mouseLeave }) => {
             Home
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link
             className={styles.menubar_link}
             to='/projects'
@@ -35,8 +35,8 @@ const Menubar = ({ open, toggleMenubar, mouseEnter, mouseLeave }) => {
           >
             Work & Projects
           </Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link
             className={styles.menubar_link}
             to='/blog'
@@ -44,7 +44,7 @@ const Menubar = ({ open, toggleMenubar, mouseEnter, mouseLeave }) => {
           >
             Blog
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link
             className={styles.menubar_link}
@@ -61,7 +61,7 @@ const Menubar = ({ open, toggleMenubar, mouseEnter, mouseLeave }) => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Résumé
+            Resume
           </a>
         </li>
       </ul>

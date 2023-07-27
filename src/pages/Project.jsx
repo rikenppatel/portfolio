@@ -10,7 +10,7 @@ import projects from '../data/projects.json';
 const Project = ({ style, mouseEnter, mouseLeave }) => {
   return (
     <animated.section style={style} className={styles.selected_works}>
-      <Meta title='Ayobami Adedapo' url='https://favourcodes.com/' />
+      <Meta title='Riken Patel' url='https://abc.com/' />
       <div
         onMouseEnter={mouseEnter}
         onMouseLeave={mouseLeave}
@@ -51,7 +51,7 @@ const Project = ({ style, mouseEnter, mouseLeave }) => {
                 <h3 className={styles.project_name}>{project.name}</h3>
                 <p className={styles.project_desc}>{project.description}</p>
               </div>
-              {project.company === 'Freelance' && (
+              {/* {project.company === 'Freelance' && (
                 <a
                   target='_blank'
                   href={project.link}
@@ -62,7 +62,7 @@ const Project = ({ style, mouseEnter, mouseLeave }) => {
                 >
                   View Project <ChevronRight />
                 </a>
-              )}
+              )} */}
             </div>
           </div>
         ))}

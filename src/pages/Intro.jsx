@@ -25,11 +25,11 @@ const Intro = ({ style, mouseEnter, mouseLeave }) => {
         </p>
         <h2 className={styles.title}>Frontend Engineer</h2>
         <p className={styles.desc}>
-          Hello! I'm Ayobami Favour Adedapo, a Frontend Engineer and UI/UX
+          {/* Hello! I'm Ayobami Favour Adedapo, a Frontend Engineer and UI/UX
           Enthusiast. I love creating beautiful and intuitive interfaces for
           users. I have an eye for design with a User-Driven Approach to
           Development. In my spare time, I work on ThreeJs, WebGL and various
-          CSS Animations.
+          CSS Animations. */}
         </p>
         <Social mouseEnter={mouseEnter} mouseLeave={mouseLeave} />
         <Link

@@ -2,9 +2,9 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const defaults = {
-  title: 'Ayobami Adedapo',
+  title: 'Riken Patel',
   description:
-    'Ayobami Adedapo is a Frontend Developer for web and mobile and a UI/UX enthusiast.',
+    'Mobile Engineer',
 };
 
 const Meta = ({
@@ -15,7 +15,7 @@ const Meta = ({
   absoluteImageUrl = '',
   title = defaults.title,
   description = defaults.description,
-  twitterCreatorAccount = 'https://twitter.com/favourcodes',
+  twitterCreatorAccount = 'https://twitter.com/',
 }) => {
   return (
     <Helmet title={title}>

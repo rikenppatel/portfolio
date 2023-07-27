@@ -14,7 +14,7 @@ const PostList = ({ style, mouseEnter, mouseLeave }) => {
 
   return (
     <animated.section style={style} className={styles.posts_wrapper}>
-      <Meta title='Blog | Ayobami Adedapo' url='https://favourcodes.com/blog' />
+      <Meta title='Blog | Riken Patel' url='https://favourcodes.com/blog' />
 
       <div className={styles.posts}>
         <div className={styles.breadcrumb}>

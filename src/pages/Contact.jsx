@@ -10,7 +10,7 @@ const Intro = ({ style, mouseEnter, mouseLeave }) => {
   return (
     <animated.section style={style} className={styles.contact}>
       <Meta
-        title='Contact Me | Ayobami Adedapo'
+        title='Contact Me | Riken Patel'
         url='https://favourcodes.com/contact'
       />
 
@@ -29,7 +29,7 @@ const Intro = ({ style, mouseEnter, mouseLeave }) => {
           <figure>
             <img
               src='https://res.cloudinary.com/favourcodes/image/upload/v1598125526/profile-min.png'
-              alt='ayobami favour adedapo'
+              alt='riken favour adedapo'
             />
           </figure>
         </div>
@@ -38,9 +38,9 @@ const Intro = ({ style, mouseEnter, mouseLeave }) => {
             <h2 className={styles.heading}>Have a question?</h2>
           </header>
           <p className={styles.contact_bait}>
-            I'm currently available for work/collaborations, but will treat
+            {/* I'm currently available for work/collaborations, but will treat
             messages based on how interesting they sound. Send me a mail and
-            I'll respond in 24 hours!
+            I'll respond in 24 hours! */}
           </p>
 
           <div className={styles.contact_options}>
@@ -59,9 +59,9 @@ const Intro = ({ style, mouseEnter, mouseLeave }) => {
               <a
                 onMouseEnter={mouseEnter}
                 onMouseLeave={mouseLeave}
-                href='https://twitter.com/messages/compose?recipient_id=1249996578154328066&text=Hey!%20would%20love%20to%20talk%20to%20you%20about'
+                href='https://twitter.com/'
               >
-                @favourcodes
+                @twitter
               </a>
             </div>
           </div>
