@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { animated } from 'react-spring/renderprops';
-import { ChevronRight } from 'react-feather';
+// import { ChevronRight } from 'react-feather';
 
 import Meta from '../components/Meta';
 import styles from './Project.module.css';

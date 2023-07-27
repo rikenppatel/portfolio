@@ -8,7 +8,7 @@ import { animated } from 'react-spring/renderprops';
 import { Twitter, ChevronRight } from 'react-feather';
 import javascript from 'highlight.js/lib/languages/javascript';
 
-import Meta from '../components/Meta';
+// import Meta from '../components/Meta';
 import styles from './Post.module.css';
 import postlist from '../data/posts.json';
 
@@ -62,8 +62,8 @@ const Post = ({ style, mouseEnter, mouseLeave, ...props }) => {
         article={true}
         title={fetchedPost.title}
         description={fetchedPost.description}
-        url={`https://favourcodes.com/post/${fetchedPost.slug}`}
-        absoluteImageUrl={`https://favourcodes.com${fetchedPost.thumbnail}`}
+        url={`https://google.com/post/${fetchedPost.slug}`}
+        absoluteImageUrl={`https://google.com${fetchedPost.thumbnail}`}
       /> */}
       <div className={styles.post}>
         <div className={styles.breadcrumb}>
